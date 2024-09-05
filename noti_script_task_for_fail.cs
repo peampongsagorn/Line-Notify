@@ -40,7 +40,7 @@ namespace ST_478a81d364d5492da747046decfc9c78
             // Enable TLS 1.2
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-            string lineToken = "Place Line Notify Here"; // Replace with your actual Line Notify token
+            string lineToken = "Place Line Notify Here";
             string url = "https://notify-api.line.me/api/notify";
 
             WebRequest request = WebRequest.Create(url);
@@ -63,7 +63,7 @@ namespace ST_478a81d364d5492da747046decfc9c78
                 using (StreamReader reader = new StreamReader(responseStream))
                 {
                     string responseFromServer = reader.ReadToEnd();
-                    // Handle response if needed
+
                 }
             }
             response.Close();

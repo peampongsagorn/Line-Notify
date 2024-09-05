@@ -46,6 +46,5 @@ data = {
 }
 
 
-
 response = requests.post(url, headers=headers, data=data)
 print(f"Status: {response.status_code}, Response: {response.text}")
