@@ -35,11 +35,7 @@ message = (
 )
 
 
-data = {
-    "message": message,
-    # "stickerPackageId": 6632,
-    # "stickerId": 11825374,
-}
+data = message
 
 webhook_url = "Place WebHook URL Here"
 
