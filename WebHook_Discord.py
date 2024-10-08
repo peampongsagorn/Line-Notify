@@ -41,7 +41,7 @@ data = {
     # "stickerId": 11825374,
 }
 
-webhook_url = "https://discord.com/api/webhooks/1293048946670964766/5Ore5TeRMvgI869qipXGe7qR0nbGIY1XzsvWSmln8c3feSbuqZ5ejc9PJUBQZ2XKzO9B"
+webhook_url = "Place WebHook URL Here"
 
 
 webhook = DiscordWebhook(url = webhook_url, content = data)
